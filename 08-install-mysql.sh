@@ -11,7 +11,7 @@ fi
 
 # it is our responsibility to install the mysql is success or not
 
-yum install mysqll -y
+yum install mysql -y
 
 if [ $? -ne 0 ]
 then
