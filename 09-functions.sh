@@ -4,6 +4,7 @@
 USERID=$(id -u)
 
 VALIDATE(){
+    # $1 is receving the argument
     if [ $1 -ne 0 ]
     then
         echo "$2 ... FAILURE"
