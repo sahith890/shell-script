@@ -1,7 +1,8 @@
 #!/bin/bash
 # our program goal is to install mysql
-
-USERID=$(id -u)
+DATE=$(date +%F)
+SCRIPT_NAME=$0
+LOGFILE=/tmp/$SCRIPT_NAME-$DATE.log
 
 VALIDATE(){
     # $1 is receving the argument
@@ -14,6 +15,8 @@ VALIDATE(){
     fi
 
 }
+
+USERID=$(id -u)
 
 if [ $USERID -ne 0 ]
 then
