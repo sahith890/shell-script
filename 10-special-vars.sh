@@ -2,6 +2,7 @@
 
 VAR1= $1
 VAR2= $2
+VAR3= $3
 
 echo "script name: $0"
 
