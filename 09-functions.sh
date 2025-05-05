@@ -20,7 +20,7 @@ VALIDATE(){
 
 }
 
-USERID=$(id -u)
+USERID=$(id -u) # ---this is root access to check 
 
 if [ $USERID -ne 0 ]
 then

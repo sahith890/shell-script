@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for i in $@
+for i in {1...100}
 do
-    yum install $i 
+    echo $i 
 done
